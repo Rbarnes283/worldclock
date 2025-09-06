@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Courier New", monospace;
+  background: #000;
+  color: #0f0; /* neon green */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Input */
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  background: black;
+  color: #0f0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  background: black;
+  border: 2px solid #0f0;
+  border-radius: 5px;
+  color: #0f0;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0f0;
+  color: black;
+}
+
+/* Clock */
+#clockContainer {
+  margin-top: 20px;
+}
+
+#cityName {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.neon-clock {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #0f0, 
+               0 0 20px #0f0, 
+               0 0 30px #0f0, 
+               0 0 40px #0f0;
+}
+
+.hidden {
+  display: none;
+}

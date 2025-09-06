@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon World Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🌍 World Clock</h1>
+    <p class="subtitle">Enter a U.S. state or world city to display its local time</p>
+
+    <div class="input-container">
+      <input type="text" id="locationInput" placeholder="e.g. Texas, New York, London, Tokyo">
+      <button onclick="getTime()">Show Time</button>
+    </div>
+
+    <div id="clockContainer" class="hidden">
+      <h2 id="cityName"></h2>
+      <div id="clock" class="neon-clock"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
