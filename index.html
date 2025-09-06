@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 World Clock</h1>
+    <p>Enter a city or state to see the current local time:</p>
+
+    <input type="text" id="locationInput" placeholder="e.g. New York, London, Tokyo">
+    <button onclick="getTime()">Show Time</button>
+
+    <div id="clockContainer" class="hidden">
+      <h2 id="cityName"></h2>
+      <div id="clock"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
